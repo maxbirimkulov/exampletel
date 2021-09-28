@@ -1,0 +1,11 @@
+
+.row{
+  display: flex;
+  column-gap: 30px;
+  flex-wrap: wrap;
+  row-gap: 30px;
+}
+
+.column{
+  width: calc(33.33333% - 20px);
+}

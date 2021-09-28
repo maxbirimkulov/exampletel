@@ -1,0 +1,85 @@
+.pricing{
+  padding: 119px 0 124px;
+  background: #060C0B20;
+  &__title{
+    color: $black;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 21px;
+  }
+  &__subtitle{
+    font-size: 15px;
+    text-align: center;
+    color: $black;
+    margin-bottom: 125px;
+  }
+  &__column{
+    padding-bottom: 63px;
+    background-color: #fff;
+    text-align: center;
+    transition: .5s;
+    cursor: pointer;
+    &:hover{
+      transition: .5s;
+      transform: scale(1.1);
+      position: relative;
+      z-index: 5;
+    }
+    &_middle{
+      box-shadow: 0 0 50px -10px $black ;
+    }
+    &-top{
+      padding: 39px 0 67px;
+      background: #3949AB;
+      clip-path: polygon(0 0, 100% 0%, 100% 78%, 0% 100%);
+      color: white;
+      margin-bottom: 44px;
+    }
+    &-title{
+      font-size: 25px;
+      margin-bottom: 39px;
+    }
+    &-price{
+      font-size: 17px;
+    }
+    &-course{
+      font-size: 25px;
+    }
+    &-num{
+      font-size: 50px;
+      margin-right: 5px;
+    }
+  }
+  &__menu{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 31px;
+    margin-bottom: 66px;
+    list-style-type: none;
+  }
+  &__list{
+    width: 178px;
+    height: 33px;
+    border-bottom: 2px solid #707070;
+    color: $black;
+    font-size: 17px;
+  }
+  &__btn{
+    width: 180px;
+    height: 60px;
+    border: 2px solid $black;
+    font-size: 20px;
+    color: $black;
+    cursor: pointer;
+    outline: none;
+    background-color: transparent;
+    transition: .5s;
+    &:hover{
+      background-color: $green;
+      transition: .5s;
+      color: white;
+      border: 2px solid $green;
+    }
+  }
+}

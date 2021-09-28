@@ -1,0 +1,63 @@
+.services{
+  padding: 174px 0 126px;
+  background-color: #E4FDF9;
+  &__title{
+    font-size: 30px;
+    color: $black;
+    text-align: center;
+    margin-bottom: 36px;
+  }
+  &__subtitle{
+    font-size: 15px;
+    color: $black;
+    text-align: center;
+    margin-bottom: 111px;
+  }
+  &__column{
+    padding: 59px 49px 48px 51px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    color: $black;
+    transition: .5s;
+    &-img{
+      width: 56px;
+      height: 62px;
+      background: url("../images/services/smartphonecopy.svg") center/cover no-repeat;
+      margin-bottom: 38px;
+    }
+    &-title{
+      font-size: 20px;
+      margin-bottom: 21px;
+    }
+    &-info{
+      font-size: 15px;
+      margin-bottom: 44px;
+      text-align: center;
+    }
+    &-btn{
+      width: 151px;
+      height: 56px;
+      border: 2px solid $black;
+      cursor: pointer;
+      outline: none;
+      font-size: 20px;
+      background-color: transparent;
+    }
+    &:hover{
+      background-color: $green;
+      color: white;
+      transition: .5s;
+    }
+    &:hover .services__column-btn{
+        color: white;
+        border: 2px solid white;
+    }
+    &:hover .services__column-img{
+      background: url("../images/services/smartphone.svg") center/cover no-repeat;
+      transition: .5s;
+    }
+  }
+}

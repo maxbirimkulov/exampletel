@@ -1,0 +1,14 @@
+.btn{
+  font-size: 20px;
+  color: #fff;
+  width: 221px;
+  height: 71px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: $green;
+  &_white{
+    background-color: transparent;
+    border: 2px solid white;
+  }
+}
